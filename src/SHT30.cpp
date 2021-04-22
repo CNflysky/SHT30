@@ -14,7 +14,7 @@ uint32_t SHT30::requestMeasurement() {
   Wire.write(0x2c);
   Wire.write(0x06);
   Wire.endTransmission();
-  return 500;
+  return 15;
 }
 
 bool SHT30::getResult() {

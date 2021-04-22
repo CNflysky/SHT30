@@ -1,5 +1,4 @@
 #include "SHT30.h"
-
 #include <Arduino.h>
 #include <Wire.h>
 SHT30::SHT30(uint8_t addr) { _addr = addr; }
@@ -25,11 +24,6 @@ bool SHT30::getResult() {
     return true;
   } else
     return false;
-}
-
-void SHT30::displayData() {
-  for (uint8_t i = 0; i < 6; i++) Serial.printf("_data[%d]=%x\n", i, _data[i]);
-  Serial.printf("temp crc:%x\n", _getCRC(_data));
 }
 
 double SHT30::getTempInC() {

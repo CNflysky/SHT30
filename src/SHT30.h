@@ -8,7 +8,6 @@ class SHT30 {
   SHT30(uint8_t addr);
   SHT30();
   ~SHT30();
-  void displayData();
   uint32_t requestMeasurement();
   bool getResult();
   void begin();

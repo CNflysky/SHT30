@@ -1,0 +1,23 @@
+#######################################
+# Syntax Coloring Map For SHT30
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+requestMeasurement KEYWORD2
+begin KEYWORD2
+enableCRC KEYWORD2
+getTempInC KEYWORD2
+getHumi KEYWORD2
+getResult KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################

@@ -6,7 +6,7 @@ void setup(){
 	sht30.begin();
 	sht30.enableCRC(true);
 	Serial.print("CRC state:");
-	Serial.print(sht30.enableCRC());
+	Serial.println(sht30.enableCRC());
 }
 
 void loop(){

@@ -6,6 +6,7 @@
 # Datatypes (KEYWORD1)
 #######################################
 
+SHT30	KEYWORD1	SHT30
 
 #######################################
 # Methods and Functions (KEYWORD2)
